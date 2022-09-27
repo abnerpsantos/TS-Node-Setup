@@ -8,9 +8,9 @@
     "start:dev": "nodemon",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
-    "test:watch": "npm test --watch",
-    "test:staged": "npm test --findRelatedTests",
-    "test:push": "npm test --coverage"
+    "test:watch": "jest --passWithNoTests --watchAll",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:push": "jest --coverage --passWithNoTests"
   },
   "keywords": [],
   "author": "",
