@@ -2,9 +2,11 @@
   "name": "nodesetup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js",
     "start:dev": "nodemon",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
