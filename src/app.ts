@@ -1,1 +1,3 @@
-console.log("Hello from TS Node with Nodemon")
+import { hello } from "./hello.js";
+
+console.log(hello);
