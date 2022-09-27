@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,json",
+    "exec": "ts-node --esm src/app.ts",
+    "ignore": [
+        "src/**/*.spec.ts",
+        "src/**/*.test.ts"
+    ],
+    "events": {
+        "restart": "clear"
+    }
+}
