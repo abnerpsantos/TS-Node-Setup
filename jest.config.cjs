@@ -1,4 +1,5 @@
-export default {
+module.exports = {
+  moduleDirectories: ["node_modules", "src"],
   roots: ["<rootDir>/src"],
   collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
   coverageDirectory: "coverage",
